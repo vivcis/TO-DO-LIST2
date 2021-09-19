@@ -1,0 +1,108 @@
+:root{
+	font-size: 18px;
+}
+
+*{
+	margin: 0;
+	paddding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/*background:  #fec107;*/
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+section{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+
+.container{
+	background: #e5e5e5;
+	padding: 2rem;
+	margin: 2rem;
+	width: 35rem;
+	height: 75vh;
+	
+}
+
+ 
+#new-task .wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*margin-bottom: 10rem;*/
+
+}
+
+#new-task{
+	padding: 0.5rem;
+	margin: 0.2rem;
+	width: 20rem;
+	border: 2px outset;
+	border-radius: 0.8rem;
+	text-align: center;
+	background-color: #000;
+	color: ghostwhite;
+	font-size: 1.5rem;
+	/*margin-bottom: 14rem;*/
+}
+
+#new-task:hover{
+	background-color: #d9b1b3;
+}
+
+#input-container{
+	width: 5rem;
+	padding: 0.5rem;
+	margin: 0.3rem;
+	border-radius: .5rem;
+	cursor: pointer;
+
+}
+
+button{
+	background-color: #e5e5e5;
+}
+
+ .editButton, #done, #cancel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 6rem;
+	padding: 0.5rem;
+	margin: 0.3rem;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1rem;
+	border-radius: .5rem;
+	/*box-shadow:  6px 2px 1px rgba(0, 0, 255, .2);*/
+  
+}
+
+#cancel, button{
+	margin-left: 17rem ;
+}
+
+#done,
+#cancel,
+button:hover{
+	background-color: #d9b1b3;
+}
+
+.to-do-wrapper{
+	margin: 0.3rem;
+}
+
+.list-styling{
+	margin: 0;
+	cursor: pointer;
+	font-size: 1rem;
+}
