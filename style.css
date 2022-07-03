@@ -1,16 +1,16 @@
 :root{
 	font-size: 18px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+	text-align: center;
 }
 
 *{
 	margin: 0;
-	paddding: 0;
+	padding: 0;
 	box-sizing: border-box;
-}
-
-body{
-	/*background:  #fec107;*/
-	font-family: 'Kumbh Sans', sans-serif;
 }
 
 section{
@@ -65,25 +65,26 @@ section{
 	margin: 0.3rem;
 	border-radius: .5rem;
 	cursor: pointer;
-
+	font-size: 1rem;
+	margin-left: 2em;
 }
 
 button{
 	background-color: #e5e5e5;
 }
 
- .editButton, #done, #cancel {
+ .editButton, #cancel {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 6rem;
+	width: 5rem;
 	padding: 0.5rem;
-	margin: 0.3rem;
+	margin-left: 5.9rem;
 	cursor: pointer;
 	text-align: center;
 	font-size: 1rem;
 	border-radius: .5rem;
-	/*box-shadow:  6px 2px 1px rgba(0, 0, 255, .2);*/
+	/* box-shadow:  6px 2px 1px rgba(0, 0, 255, .2); */
   
 }
 
